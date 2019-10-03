@@ -1,0 +1,21 @@
+﻿<Window x:Class="BaiTapKiemTra.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Label Content="Name" HorizontalAlignment="Left" Height="28" Margin="38,23,0,0" VerticalAlignment="Top" Width="57" FontSize="16"/>
+        <Label Content="Phone Number" HorizontalAlignment="Left" Margin="38,73,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name="txtname" HorizontalAlignment="Left" Height="28" Margin="160,23,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtnumber" HorizontalAlignment="Left" Height="26" Margin="160,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <RadioButton x:Name="rbnTV" Content="Television" HorizontalAlignment="Left" Margin="38,166,0,0" VerticalAlignment="Top" FontSize="14" />
+        <RadioButton x:Name="rbnTL" Content="Fridge" HorizontalAlignment="Left" Margin="142,166,0,0" VerticalAlignment="Top" FontSize="14" Width="67" RenderTransformOrigin="0.627,0.333" />
+        <Label Content="Product" HorizontalAlignment="Left" Margin="38,122,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="Amount" HorizontalAlignment="Left" Margin="38,212,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name="txtSL" HorizontalAlignment="Left" Height="31" Margin="122,212,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.303,0.514"/>
+        <Button x:Name="btnBill" Content="Bill" HorizontalAlignment="Left" Margin="38,261,0,0" VerticalAlignment="Top" Width="81" Height="36" Click="btnHoaDon_Click" FontSize="16"/>
+        <Button x:Name="btnExit" Content="Exit" HorizontalAlignment="Left" Margin="178,261,0,0" VerticalAlignment="Top" Width="81" Height="36" Click="btnHuy_Click" FontSize="16"/>
+        <RadioButton x:Name="rbnMT" Content="Computer" HorizontalAlignment="Left" Margin="225,166,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <TextBlock x:Name="txbHienThi" HorizontalAlignment="Left" Height="212" Margin="290,23,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="192"/>
+
+    </Grid>
+</Window>
